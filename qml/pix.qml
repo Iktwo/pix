@@ -213,7 +213,7 @@ Window {
 
                         if (offsetY > gridWidth && offsetX < gridHeight) {
                             offsetY = 0;
-                            offsetX += (regionSize + 1);
+                            offsetX += regionSize;
                         }
 
                         regions = totalRegions
